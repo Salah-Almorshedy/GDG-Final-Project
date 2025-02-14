@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         fetch("http://127.0.0.1:8000/api/category", {
             method: "POST",
             headers: {
-                "Content-Type": "application/json", // Set the content type to JSON
+                "Content-Type": "application/json",  Accept:"application/json" // Set the content type to JSON
             },
             body: JSON.stringify(data), // Convert the data to JSON format
         })
