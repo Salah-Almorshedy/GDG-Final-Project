@@ -93,6 +93,11 @@ header .header .icons .user{
     padding-bottom: 10px;
 }
 
+header .header .icons .user a{
+    color: #000000;
+}
+
+
 header .header .icons .shopping{
     position: relative;
 }
@@ -244,23 +249,23 @@ header .inputs form input[type="submit"]:hover {
 }
 
 
-/* Start Offers */
+/* Start recommended */
 
-.offers {
+.recommended {
     padding-top: 100px;
 }
 
-.offers .container .text{
+.recommended .container .text{
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
 }
 
-.offers .container .text h2{
+.recommended .container .text h2{
     font-size: 36px;
 }
 
-.offers .container .text button{
+.recommended .container .text button{
     background-color: #F5EE1C;
     border-radius: 8px;
     color: white;
@@ -268,14 +273,14 @@ header .inputs form input[type="submit"]:hover {
     border: 1px solid #F5EE1C;
 }
 
-.offers .container .carts {
+.recommended .container .carts {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(270px , 1fr));
     column-gap: 23px;
     row-gap: 60px
 }
 
-.offers .container .carts .cart{
+.recommended .container .carts .cart{
     width: 270px;
     text-align: center;
     background-color: white;
@@ -287,11 +292,11 @@ header .inputs form input[type="submit"]:hover {
     position: relative;
 }
 
-.offers .container .carts .cart .img img{
+.recommended .container .carts .cart .img img{
     width: fit-content;
 }
 
-.offers .container .carts .cart .icon i{
+.recommended .container .carts .cart .icon i{
     color: white;
     background-color: rgba(197, 197, 197, 0.579);
     position: absolute;
@@ -302,28 +307,29 @@ header .inputs form input[type="submit"]:hover {
     padding: 4px;
 }
 
-.offers .container .carts .cart .icon:hover i{
+.recommended .container .carts .cart .icon:hover i{
     color: red;
 }
 
-.offers .container .carts .cart p {
+.recommended .container .carts .cart p {
     padding-top: 15px;
     color: #000000;
     margin-bottom: 15px;
 }
 
-.offers .container .carts .cart .price {
+.recommended .container .carts .cart .price {
     margin-bottom: 15px;
     display: flex;
     justify-content: space-around;
 }
 
-.offers .container .carts .cart .price .new{
+.recommended .container .carts .cart .price .new{
     color:#DB4444;
     font-weight: bold;
 }
 
-.offers .container .carts .cart button{
+.recommended .container .carts .cart a{
+    display: block;
     width: 100%;
     background-color: #F5EE1C;
     color: white;

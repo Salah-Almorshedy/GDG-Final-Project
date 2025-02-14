@@ -93,6 +93,11 @@ header .header .icons .user{
     padding-bottom: 10px;
 }
 
+header .header .icons .user a{
+    color: #000000;
+}
+
+
 header .header .icons .shopping{
     position: relative;
 }
@@ -323,7 +328,8 @@ header .inputs form input[type="submit"]:hover {
     font-weight: bold;
 }
 
-.offers .container .carts .cart button{
+.offers .container .carts .cart a{
+    display: block ;
     width: 100%;
     background-color: #F5EE1C;
     color: white;
