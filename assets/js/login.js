@@ -46,7 +46,7 @@ document.querySelector(".login").addEventListener("submit", async function (even
             }
 
             // Redirect to another page (e.g., dashboard)
-            window.location.href = "dashboard.html"; // Change to your desired redirect page
+            window.location.href = "index.html"; // Change to your desired redirect page
         } else {
             console.error("Login Failed:", data);
             alert("Login Failed: " + (data.message || "Invalid email or password"));
