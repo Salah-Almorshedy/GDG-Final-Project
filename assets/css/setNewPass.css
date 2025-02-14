@@ -10,6 +10,7 @@ html {
 }
 
 body{
+    font-family: Arial, sans-serif;
     font-family: Poppins;
     background-image: url("../images/circles.svg");
     background-size: cover;
