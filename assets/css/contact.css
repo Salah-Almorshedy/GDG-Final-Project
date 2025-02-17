@@ -128,8 +128,17 @@ header .header .icons .shopping::before{
     z-index: 1;
 }
 
+header .header .icons .shopping a{
+    color: #000000;
+}
+
 header .header .icons .bell{
     position: relative;
+}
+
+
+header .header .icons .bell a{
+    color: #000000;
 }
 
 header .header .icons .bell i{
